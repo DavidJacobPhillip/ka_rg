@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo ka-rg.com > dist/CNAME",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
